@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.container {
+  height: auto;
+  width: 960px;
+  margin: auto;
+}
+.container > .menu > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(27, 27, 27);
+}
+.container > .menu > ul > li {
+  float: right;
+}
+.container > .menu > ul > li > a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+}
+li a:hover {
+  background-color: yellowgreen;
+}
+.container > .menu > ul > li > .logo {
+  float: left;
+}
+
+.name {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+  font-size: 16px;
+  margin-right: 580px;
+}
+.first-part {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: rgba(218, 216, 216, 0.596);
+  height: 300px;
+}
+.first-part > .left {
+  padding: 10px 10px 10px 15px;
+}
+.first-part > .right {
+  background-image: url("/Assects/image/1.jpeg");
+  background-size: cover;
+
+  margin: 30px;
+}
+.button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  list-style-type: none;
+}
+.second-part {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.second-part > .box-one {
+}
+.second-part > .box-two {
+}
+.second-part > .box-three {
+}
+
+.img {
+  background-image: url("/Assects/image/1.jpeg");
+  background-size: cover;
+  height: 190px;
+  width: 300px;
+}
+.third-part {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  background-color: rgb(27, 27, 27);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: whitesmoke;
+}
+.third-part > .post {
+  padding-left: 10px;
+}
+.footer {
+  text-align: center;
+}
