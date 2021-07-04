@@ -3,7 +3,8 @@ body {
   padding: 0px;
   height: auto;
   width: 100%;
-  background-color: whitesmoke;
+  background-color:whitesmoke;
+
 }
 
 .container {
@@ -45,17 +46,17 @@ li a:hover {
 .first-part {
   display: grid;
   grid-template-columns: 40% 60%;
-  background-color: rgba(218, 216, 216, 0.596);
+  background-color: rgba(199, 196, 196, 0.596);
   height: 300px;
 }
 .first-part > .left {
   padding: 10px 10px 10px 15px;
 }
 .first-part > .right {
-  background-image: url("/Assects/image/1.jpeg");
+  background-image: url("/Assects/image/me.jpeg");
   background-size: cover;
-
   margin: 30px;
+
 }
 .button {
   background-color: orange;
@@ -67,20 +68,20 @@ li a:hover {
   display: inline-block;
   font-size: 16px;
   list-style-type: none;
+  
+}
+.button:hover{
+  background-color: yellowgreen;
 }
 .second-part {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-}
-.second-part > .box-one {
-}
-.second-part > .box-two {
-}
-.second-part > .box-three {
+ 
 }
 
+
 .img {
-  background-image: url("/Assects/image/1.jpeg");
+  background-image: url("/Assects/image/me.jpeg");
   background-size: cover;
   height: 190px;
   width: 300px;
